@@ -1,0 +1,972 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        box-sizing: border-box;
+        min-width: 1200px;
+        max-width: 1900px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    /* 头部 */
+    
+    .header {
+        position: relative;
+        height: 54px;
+        background-color: powderblue;
+    }
+    
+    .header a:first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 179px;
+        height: 54px;
+        line-height: 54px;
+        background-color: #cf1132;
+        text-align: center;
+    }
+    
+    .header .sm-pic {
+        position: absolute;
+        top: 0;
+        left: 179px;
+        width: 420px;
+        height: 54px;
+        background-color: #fff;
+    }
+    
+    .header .sm-pic img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header .top-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 129px;
+        line-height: 54px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .header .top-scrol {
+        position: absolute;
+        top: 0;
+        right: 129px;
+        width: 138px;
+        line-height: 54px;
+        text-align: center;
+        background-color: blue;
+        font-size: 12px;
+    }
+    
+    .header .logo {
+        position: absolute;
+        top: 0;
+        left: 750px;
+        margin: 5px 0 5px 120px;
+        width: 133px;
+        height: 44px;
+        background: url(../img/wangyi-game.png) no-repeat;
+    }
+    
+    .header_box {
+        height: 2390px;
+        width: 100%;
+        background: url(../img/bg_cadf995.jpg) no-repeat center -45px;
+    }
+    /* ................ */
+    
+    @font-face {
+        font-family: 'iconfont';
+        src: url('../fonts/iconfont.ttf?t=1623133266679') format('truetype');
+    }
+    
+    .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .bwc_header {
+        position: relative;
+        width: 100%;
+        height: 54px;
+        border-bottom: 1px solid #dadada;
+        ;
+    }
+    
+    .bwc_header .bwc_row {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 129px;
+        height: 54px;
+    }
+    
+    .bwc_header .bwc_row:nth-child(1) {
+        left: 0;
+        width: 179px;
+        height: 54px;
+        background-color: #cf1132;
+    }
+    
+    .bwc_header .bwc_row:nth-child(2) {
+        left: 179px;
+        width: 420px;
+        height: 55px;
+    }
+    
+    .bwc_header .bwc_row:nth-child(3) {
+        left: 50%;
+        margin-left: -30px;
+        margin-top: 5px;
+        width: 133px;
+        height: 44px;
+    }
+    
+    .bwc_header .bwc_row:nth-child(3) a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(../images/wangyi-game.png) no-repeat;
+    }
+    
+    .bwc_header .bwc_row:nth-child(4) {
+        right: 129px;
+        width: 138px;
+        height: 54px;
+        border-left: 1px solid #dadada;
+        border-right: 1px solid #dadada;
+        background-color: #fff;
+    }
+    
+    .bwc_header .bwc_row:nth-child(1) i {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        width: 26px;
+        height: 12px;
+        background: url(../images/jinglingtu.png) no-repeat -89px -305px;
+    }
+    
+    .bwc_header .bwc_row:nth-child(1) span {
+        position: absolute;
+        left: 70px;
+        top: 18px;
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .bwc_col>a {
+        z-index: 88;
+        display: none;
+        position: absolute;
+        top: 55px;
+    }
+    
+    .bwc_row_four ul {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+    
+    .bwc_row_four ul li a {
+        display: block;
+        width: 100%;
+        height: 52px;
+        font-size: 12px;
+        line-height: 52px;
+        color: #3c3333;
+        text-align: center;
+    }
+    
+    .bwc_row_four ul li a:hover {
+        color: #ca2e69;
+        border-bottom: 1px solid #ca2e69;
+    }
+    
+    .bwc_row .bwc_icon,
+    .bwc_row .bwc_icon_red {
+        position: absolute;
+        top: 17px;
+        left: 23px;
+        width: 18px;
+        height: 20px;
+        background: url(../images/jinglingtu.png) no-repeat -80px -343px;
+    }
+    
+    .bwc_row .bwc_icon_red {
+        display: none;
+        background-position: -98px -343px;
+    }
+    
+    .bwc_header .bwc_row:nth-child(5) {
+        text-align: center;
+    }
+    
+    .bwc_row .bwc_hot {
+        display: block;
+        line-height: 52px;
+        font-size: 12px;
+        color: #626262;
+    }
+    
+    .bwc_row .bwc_hot .bwc_tuijian {
+        margin-left: 15px;
+    }
+    
+    .bwc_nav_lf img {
+        width: 100%;
+        height: 500px;
+        cursor: pointer;
+    }
+    
+    .bwc_nav_rg,
+    .bwc_nav_lf {
+        position: fixed;
+        top: 54px;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        display: none;
+        z-index: 999;
+        background-color: #fff;
+    }
+    
+    .bwc_nav_rg {
+        width: 100%;
+        height: 340px;
+        padding: 20px 0;
+    }
+    
+    .bwc_content {
+        width: 1150px;
+        height: 100%;
+        margin: 0 auto;
+        display: block;
+        background-color: #fff;
+    }
+    
+    .bwc_content ul li {
+        float: left;
+        width: 170px;
+        height: 241px;
+        margin: 0 10px;
+    }
+    
+    .bwc_content ul {
+        height: 241px;
+        margin-bottom: 10px;
+    }
+    
+    .bwc_content ul li div {
+        width: 100%;
+        height: 56px;
+        background-color: #cf1132;
+    }
+    
+    .bwc_content .bwc_text {
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .bwc_content .bwc_text span {
+        display: block;
+        width: 100%;
+        height: 24px;
+        line-height: 28px;
+    }
+    
+    .bwc_content .bwc_text i {
+        display: block;
+        width: 100%;
+        height: 32px;
+        line-height: 18px;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer {
+        width: 1125px;
+        height: 100px;
+        margin: 0 10px;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zuji {
+        height: 44px;
+        text-align: left;
+        line-height: 44px;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zuji i,
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zuji a {
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        padding: 0 8px;
+        color: #d42846;
+        border-left: 1px solid #d42846;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zuji a {
+        border-left: none;
+        color: #626262;
+        line-height: 22px;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zuji a:hover {
+        color: #d42846;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zhuce a {
+        height: 44px;
+        line-height: 44px;
+        padding: 5px 30px;
+        margin: 0 20px;
+        font-size: 12px;
+        border: 1px solid #d4d4d4;
+        border-radius: 5px;
+        color: #727272;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zhuce a i {
+        color: #cf1132;
+        font-size: 12px;
+    }
+    
+    .bwc_nav_rg .bwc_nav_rg_footer .bwc_zhuce a:hover {
+        color: #d42846;
+    }
+    /* 头部结束 */
+    
+    .lt {
+        position: relative;
+        height: 1019px;
+        /* background-color: rgba(255, 255, 255, .4); */
+    }
+    
+    .top-left {
+        position: absolute;
+        width: 256px;
+        top: 48px;
+        left: 92px;
+    }
+    
+    .rt {
+        position: absolute;
+        top: 36px;
+        right: 38px;
+        width: 230px;
+        height: 126px;
+    }
+    
+    .rt>a {
+        display: block;
+        width: 207px;
+        height: 79px;
+        background: url(../img/home.png) center;
+        background-size: 100% 100%;
+        margin: 0 auto;
+    }
+    
+    .share {
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        width: 70%;
+        left: 20px;
+    }
+    
+    .share span {
+        float: left;
+        width: 15px;
+        height: 25px;
+    }
+    
+    .share ul li {
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        background-color: #DED8D6;
+    }
+    
+    .share ul li:hover {
+        background-color: #fff;
+    }
+    
+    .lt .button {
+        position: absolute;
+        bottom: 125px;
+        left: 50%;
+        margin-left: -400px;
+        width: 800px;
+        height: 155px;
+        /* background-color: aqua; */
+    }
+    
+    .button .age {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        width: 90px;
+        height: 117px;
+    }
+    
+    .button .dow-btn {
+        position: absolute;
+        top: 15px;
+        left: 100px;
+        width: 251px;
+        height: 125px;
+    }
+    
+    .button .dow-btn p {
+        width: 251px;
+        height: 62px;
+        line-height: 62px;
+        background: url(../img/bg-dl-btn.png) no-repeat;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+    }
+    
+    .button .erweima {
+        position: absolute;
+        top: 0s;
+        left: 370px;
+        width: 275px;
+        height: 155px;
+        background: url(../img/bg-dl-module.png) no-repeat;
+    }
+    
+    .erweima-pic {
+        position: absolute;
+        top: 24px;
+        left: 18px;
+        width: 99px;
+        height: 99px;
+    }
+    
+    @keyframes move {
+        0% {
+            transform: translateY(0px)
+        }
+        100% {
+            transform: translateY(96px)
+        }
+    }
+    
+    .button .erweima .scan {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 99px;
+        height: 2px;
+        background: url(../img/scan-line.png) no-repeat;
+        animation: move 2s infinite alternate linear;
+    }
+    
+    .button .erweima img {
+        width: 99px;
+        height: 99px;
+    }
+    
+    .button .erweima .load-btn {
+        position: absolute;
+        top: 24px;
+        right: 10px;
+        width: 137px;
+        height: 99px;
+        /* background-color: #fff; */
+    }
+    
+    .button .erweima .load-btn img {
+        width: 137px;
+        height: 41px;
+    }
+    
+    .button .erweima .load-btn .apple {
+        margin-top: 10px;
+    }
+    
+    .button .login {
+        position: absolute;
+        top: 126px;
+        left: 50%;
+        margin: 0;
+        margin-left: -50px;
+        width: 100px;
+        text-align: center;
+        font-size: 14px;
+        color: #2f2f2f;
+        border-bottom: 1px solid #2f2f2f;
+        cursor: pointer;
+    }
+    
+    .button .play {
+        position: absolute;
+        top: 17px;
+        right: 0;
+        width: 136px;
+        height: 120px;
+        background: bisque url(../img/bg-video.png) no-repeat;
+    }
+    
+    .button .play .p-btn {
+        display: block;
+        width: 25px;
+        height: 42px;
+        margin: 35px auto;
+        background: url(../img/btn-play1png.png) center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 50%;
+        margin-left: -12px;
+        top: 50%;
+        margin-top: -21px;
+        z-index: 5;
+    }
+    
+    .bottom {
+        position: relative;
+        height: 1130px;
+        /* background-color: rgba(52, 150, 145, 0.4); */
+    }
+    
+    .bottom .title {
+        position: absolute;
+        left: 50%;
+        margin-left: -290px;
+        top: 110px;
+        width: 581px;
+        height: 43px;
+        background: url(../img/title-2.png) no-repeat center;
+    }
+    
+    .copyright {
+        margin: 0 auto;
+        width: 1024px;
+        height: 215px;
+        /* background-color: pink; */
+        padding: 15px 0 10px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+    }
+    
+    .copyright a:hover {
+        text-decoration: underline;
+    }
+    
+    .copyright .part1 {
+        width: 1024px;
+        height: 48px;
+        /* background-color: green; */
+    }
+    
+    .copyright .part1 .wylogo {
+        display: inline-block;
+        margin-top: 9px;
+        width: 118px;
+        height: 36px;
+    }
+    
+    .copyright .part1 .wygame {
+        display: inline-block;
+        margin-top: 9px;
+        width: 149px;
+        height: 36px;
+    }
+    
+    .copyright .part1 .links {
+        position: relative;
+        display: inline-block;
+        margin-top: 0;
+        width: 651px;
+        height: 48px;
+        /* background-color: pink; */
+        margin-left: 50px;
+    }
+    
+    .copyright .part1 .links .botto a {
+        text-decoration: underline;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        background-color: #610000;
+    }
+    
+    .copyright .part2 {
+        padding-top: 15px;
+        width: 1024px;
+        height: 142px;
+        margin-top: 10px;
+        /* background-color: red; */
+    }
+    
+    .copyright .part2 p {
+        line-height: 2.6;
+    }
+    
+    .left {
+        position: fixed;
+        width: 210px;
+        height: 335px;
+        background-color: red;
+        /* position: absolute; */
+        top: 260px;
+        left: -220px;
+        z-index: 88;
+        background: url(../img/left.png) no-repeat;
+    }
+    
+    .left .erweima {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .left .erweima .closed {
+        position: absolute;
+        top: -82px;
+        left: 60px;
+        width: 21px;
+        height: 21px;
+        background: url(../img/left-t.png) no-repeat;
+        transition: all .3s linear;
+    }
+    
+    .left .erweima img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .left .erweima .load-btn {
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        width: 137px;
+        height: 92px;
+    }
+    
+    .left .erweima .load-btn .andio {
+        width: 137px;
+        height: 41px;
+    }
+    
+    @keyframes move1 {
+        0% {}
+        100% {
+            transform: translateY(140px)
+        }
+    }
+    
+    .left .erweima .scan {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 140px;
+        height: 2px;
+        background: url(../img/left-up-dpwn.png);
+        animation: move1 2s infinite alternate linear;
+    }
+    
+    .left .erweima .load-btn .andio img,
+    .left .erweima .load-btn .apple img {
+        width: 137px;
+        height: 41px;
+    }
+    
+    .left .erweima .load-btn .apple {
+        margin-top: 10px;
+        width: 137px;
+        height: 41px;
+    }
+    
+    .left .login {
+        position: absolute;
+        left: 52px;
+        bottom: 15px;
+        width: 100px;
+        font-size: 14px;
+        color: #ffeee7;
+        border-bottom: 1px solid #ffeee7;
+    }
+    
+    .right {
+        position: fixed;
+        top: 250px;
+        right: -220px;
+        z-index: 88;
+        width: 174px;
+        height: 263px;
+        background-color: red;
+        background: url(../img/right.png) no-repeat;
+    }
+    
+    .right .title {
+        position: absolute;
+        left: 26px;
+        bottom: 15px;
+        width: 128px;
+        height: 21px;
+        font-weight: 600;
+        color: #ffeee7;
+    }
+    
+    .right .close {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 27px;
+        height: 27px;
+        background: url(../img/right-t.jpg);
+        transition: all .3s linear;
+    }
+    
+    .right .scan {
+        position: absolute;
+        top: 37px;
+        left: 17px;
+        width: 140px;
+        height: 2px;
+        background: url(../img/left-up-dpwn.png);
+        animation: move1 2s infinite alternate linear;
+    }
+    
+    .left .erweima .closed:hover,
+    .right .close:hover {
+        transform: rotate(90deg);
+    }
+    /* 轮播图 */
+    
+    .bottom .pic {
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        margin-left: -580px;
+    }
+    
+    .swiper-pagination-bullet {
+        border-radius: 0!important;
+        background-color: #DCCB65!important;
+        border: 0!important;
+    }
+    
+    .swiper-pagination-bullet-active {
+        border-radius: 0!important;
+        background-color: #82371F!important;
+        border: 2px solid #DCCB65!important;
+    }
+    
+    .swiper-slide {
+        width: 1000px!important;
+        height: 568px!important;
+    }
+    
+    .swiper-slide img {
+        width: 1000px!important;
+        height: 568px!important;
+        border: 4px solid #DCCB65!important;
+    }
+    
+    .swiper-button-prev {
+        left: 25px!important;
+        width: 30px!important;
+        height: 45px!important;
+        background: url(../img/prev_f3b0124.png) no-repeat!important;
+        border-radius: 0!important;
+    }
+    
+    .swiper-button-next {
+        right: 25px!important;
+        width: 30px!important;
+        height: 45px!important;
+        background: url(../img/next_d12ee8d.png) no-repeat!important;
+        border-radius: 0!important;
+    }
+    /* 遮挡框 */
+    
+    .cover {
+        z-index: 10000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../img/bg-pop_efca8c6.png) center;
+    }
+    
+    .cover .videoclose {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: 420px;
+        margin-top: -225px;
+        width: 27px;
+        height: 27px;
+        background: url(../img/left-t.png) no-repeat center;
+        background-size: cover;
+        transition: all .3s linear;
+    }
+    
+    .cover .videoclose:hover {
+        transform: rotate(135deg);
+    }
+    
+    .cover .videoapp {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        width: 800px;
+        height: 450px
+    }
+    /* 注册 */
+    
+    .covers {
+        z-index: 10000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../img/bg-pop_efca8c6.png) center;
+    }
+    
+    .zhuc {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 677px;
+        height: 494px;
+        margin-top: -247px;
+        margin-left: -338px;
+    }
+    
+    .covers .zhucbody {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 677px;
+        height: 494px;
+        margin-top: -247px;
+        margin-left: -338px;
+        background: url(../img/bg-pop-window-2_86f7c68.png) center;
+    }
+    
+    .zhuc .zhucclose {
+        position: absolute;
+        z-index: 5;
+        top: 0rem;
+        right: 0rem;
+        width: 35px;
+        height: 35px;
+        background: url(../img/close_24b7b5f.png) no-repeat center;
+        background-size: cover;
+        transition: all .3s linear;
+    }
+    
+    .zhuc .zhucclose:hover {
+        transform: rotate(135deg);
+    }
+    
+    .covers .zhucbody .zctitle {
+        width: 183px;
+        height: 49px;
+        margin: 60px auto 20px;
+        background: url(../img/title-register_167057f.png) no-repeat center;
+    }
+    
+    .zhuc .contain {
+        position: absolute;
+        top: 150px;
+        left: 140px;
+        width: 390px;
+        height: 252px;
+        /* background-color: pink; */
+    }
+    
+    .zhuc .contain .ckeck {
+        position: relative;
+        padding: 0 32px 0 8px;
+        height: 52px;
+        width: 348px;
+        z-index: 19;
+        margin-top: 13px;
+        border: 1px solid #c5cddb;
+        background: #fff;
+        font-size: 12px;
+        line-height: 44px;
+    }
+    
+    .zhuc .contain .ches {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .zhuc .tioakuan {
+        position: absolute;
+        bottom: 78px;
+        left: 28px;
+        font-size: 12px;
+        color: #999999;
+        width: 330px;
+        height: 16px;
+    }
+    
+    .zhuc .tioakuan a {
+        color: #28BD09;
+    }
+    
+    .zhuc .checbtn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 390px;
+        height: 70px;
+        background: url(../img/btn-reg_7f11e3d.png) no-repeat
+    }
+    
+    .zhuc .errormsg {
+        position: absolute;
+        padding-left: 20px;
+        left: 0;
+        bottom: 100px;
+        width: 348px;
+        height: 15px;
+        font-size: 12px;
+        color: #FA5B5B;
+    }
+    
+    .zhuc .errormsg .e-eamil span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 15px;
+        background: url(../img/jinglin.png) no-repeat -216px -34px;
+    }

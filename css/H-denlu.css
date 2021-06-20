@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    /*ie6*/
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+button {
+    border: none;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.hh-box {
+    width: 100%;
+    height: 680px;
+    background: url(../images/bg.jpg);
+}
+
+.hh-box .hh-zhuce {
+    position: relative;
+    height: 680px;
+    background-color: rgba(0, 0, 0, .6);
+    overflow: hidden;
+}
+
+.hh-box .hh-zhuce .hh-logo {
+    margin: 50px auto 20px;
+    width: 260px;
+    height: 100px;
+    background: url(../images/logo.webp);
+    z-index: 2;
+}
+
+.hh-box .hh-zhuce h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.h-text {
+    width: 550px;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px auto;
+    margin-left: 415px;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+.hh-box input {
+    color: #fff;
+    width: 200px;
+    height: 24px;
+    border: 2px solid #a2abb2;
+    border-radius: 12px;
+}
+
+.hh-box .hh-zhuce .hh-sex {
+    position: relative;
+    text-align: center;
+    line-height: 15px;
+}
+
+.hh-box .hh-zhuce .hh-sex span {
+    position: absolute;
+    margin: 10px 0px 0px -96px;
+}
+
+.hh-box .hh-zhuce .hh-sex input {
+    width: 60px;
+    margin: 5px 84px 10px -44px;
+}
+
+.hh-box .hh-zhuce .hh-fuw {
+    position: relative;
+    line-height: 60px;
+}
+
+.hh-box .hh-zhuce .hh-fuw a {
+    color: chartreuse;
+}
+
+.hh-box .hh-zhuce .hh-fuw span {
+    position: absolute;
+    top: -7px;
+}
+
+.hh-box .hh-zhuce .hh-fuw input {
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0px 45px;
+}
+
+.hh-box .hh-zhuce .hh-other {
+    color: blue;
+    width: 335px;
+}
+
+.hh-box .hh-zhuce .hh-register button {
+    display: block;
+    width: 186px;
+    height: 50px;
+    margin-left: 80px;
+    border-radius: 30px;
+    background-color: #fbdc01;
+    font-size: 18px;
+    font-weight: 700;
+    color: #131210;
+}
+
+.error {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../bgi/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+.success_icon {
+    background-image: url(../bgi/success.png);
+}
+
+.h-ico {
+    position: relative;
+}
+
+.h-bian,
+.h-kai {
+    position: absolute;
+    color: #fff;
+    right: 500px;
+    top: 7px;
+    /* display: block; */
+}
+
+
+/* .h-kai {
+    position: absolute;
+    color: #fff;
+    right: 500px;
+    top: 7px; */
+
+
+/* display: none; */
+
+
+/* .h-display-hide {
+    display: none;
+}
+
+.h-display-show {
+    display: block;
+} */
