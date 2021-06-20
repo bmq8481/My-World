@@ -1,0 +1,23 @@
+{
+  "id": "2601848",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1356161",
+      "name": "眼睛-闭",
+      "font_class": "yanjing-bi",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "8361926",
+      "name": "眼睛1",
+      "font_class": "yanjing",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    }
+  ]
+}
